@@ -2,11 +2,18 @@
   "name": "typescript-tutorial",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn"
+  },
   "repository": "https://github.com/k-yama22/typescript-tutorial.git",
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "ts-node": "8.6.2",
+    "ts-node": "8.5.4",
+    "ts-node-dev": "1.0.0-pre.44",
     "typescript": "3.7.5"
+  },
+  "dependencies": {
+    "@types/node": "^16.10.3"
   }
 }
